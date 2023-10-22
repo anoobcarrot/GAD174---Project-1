@@ -677,6 +677,18 @@ MonoBehaviour:
           m_StringArgument: Ham
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 968680837}
+        m_TargetAssemblyTypeName: ButtonClickAudio, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &500879123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,6 +1186,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0366662, y: 1.8952942}
   m_EdgeRadius: 0
+--- !u!1 &968680836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 968680838}
+  - component: {fileID: 968680837}
+  m_Layer: 0
+  m_Name: Button Click
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &968680837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968680836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa82a6c9cf804a5fbeeeb07afebc436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 2128698665}
+  clickSound: {fileID: 8300000, guid: b7548d6eacecd4b6099cad28a861b6ed, type: 3}
+--- !u!4 &968680838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968680836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 919.3822, y: 536.4788, z: -9.736462}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2128698666}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &973484303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,6 +1759,18 @@ MonoBehaviour:
           m_StringArgument: Cheese
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 968680837}
+        m_TargetAssemblyTypeName: ButtonClickAudio, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1252481502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,6 +2062,18 @@ MonoBehaviour:
           m_StringArgument: Done
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 968680837}
+        m_TargetAssemblyTypeName: ButtonClickAudio, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1492347152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2253,6 +2336,18 @@ MonoBehaviour:
           m_StringArgument: Ketchup
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 968680837}
+        m_TargetAssemblyTypeName: ButtonClickAudio, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2119820780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2301,7 +2396,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2128698666}
   - component: {fileID: 2128698665}
-  - component: {fileID: 2128698664}
   m_Layer: 0
   m_Name: Button Click Audio
   m_TagString: Untagged
@@ -2309,20 +2403,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2128698664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128698663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aa82a6c9cf804a5fbeeeb07afebc436, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 2128698665}
-  clickSound: {fileID: 8300000, guid: b7548d6eacecd4b6099cad28a861b6ed, type: 3}
 --- !u!82 &2128698665
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2427,12 +2507,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2128698663}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: -1.6182265, z: -14.468778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -916.3822, y: -538.09705, z: -4.732316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 968680838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -2446,4 +2526,4 @@ SceneRoots:
   - {fileID: 973484308}
   - {fileID: 1170280560}
   - {fileID: 2111924891}
-  - {fileID: 2128698666}
+  - {fileID: 968680838}
